@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcomename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/lastlogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="@string/adding"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/search"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="@string/searching"
+        android:textColor="#FFFFFF" />
+	
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="Favourites"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
