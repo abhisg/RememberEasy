@@ -10,4 +10,5 @@ Server:
 The server side code needs to be hosted on a xampp server with the index file index.php
 
 
+This readme was modified in April 2015
 No further installation is needed for running the application.
